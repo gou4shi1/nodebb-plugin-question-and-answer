@@ -123,7 +123,7 @@ plugin.addPostTool = function(postData, callback) {
 		data.isSolved = parseInt(data.isSolved, 10) === 1;
 		data.isQuestion = parseInt(data.isQuestion, 10) === 1;
 
-		if (data.uid && !data.isSolved && data.isQuestion && parseInt(data.mainPid, 10) !== parseInt(postData.pid, 10)) {		
+		if (data.uid === postData.uid && !data.isSolved && data.isQuestion && parseInt(data.mainPid, 10) !== parseInt(postData.pid, 10)) {
 			postData.tools.push({
 				"action": "qanda/post-solved",
 				"html": "[[qanda:post.tool.mark_correct]]",

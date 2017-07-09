@@ -41,5 +41,5 @@
 	],
 	"templates": "static/templates",
 	"languages": "static/languages",
-	"defaultLang": "en_US"
+	"defaultLang": "zh_CN"
 }

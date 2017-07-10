@@ -1,8 +1,8 @@
 {
 	"topic_solved": "已解决",
 	"topic_unsolved": "未解决",
-	"menu.solved": "已解决",
-	"menu.unsolved": "未解决",
+	"menu.solved": "已解",
+	"menu.unsolved": "未解",
 	"thread.tool.mark_solved": "标记为已解决",
 	"thread.tool.mark_unsolved": "标记为未解决",
 	"thread.tool.make_normal": "转为普通主题",
